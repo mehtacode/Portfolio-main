@@ -63,16 +63,16 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url('IMG_2387.jpg');
+  background-image: url('Image2.jpg');
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   height: 100vh; /* Sets the height to 100% of the viewport */
   width: 100%; /* Sets the width to 100% of the container */
   display: flex;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 10px;
-  color: white;
+  color: rgb(54, 81, 206);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow */
 }
 
@@ -113,7 +113,9 @@ button {
   .navbar .toggle-btn {
     display: inline-block;
   }
-
+  .hero {
+    background-image: url('Image1.jpeg');
+  }
   .navbar .nav-links {
     display: none; /* Hidden by default for smaller screens */
   }
