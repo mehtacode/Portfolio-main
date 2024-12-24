@@ -1,201 +1,103 @@
 <!DOCTYPE html>
-<!-- Website -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Myportfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Move to up button -->
-    <div class="scroll-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
-    </div>
-    <!-- navgaition menu -->
-    <nav>
-      <div class="navbar">
-        <div class="logo"><a href="#">Aditya Mehta</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-        </ul>
-       
-      </div>
-      <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div>
-    </nav>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Mehta Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar"> 
+    <h1 class="brand">Aditya Mehta</h1>
+    <button class="toggle-btn" id="toggle-btn">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
 
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-      <div class="home-content">
-      <div class="text">
-      <div class="text-one">Web</div>
-      <div class="text-one">Developer</div>
+  <header class="hero">
+    
+  </header>
 
-      </div>
-       
-         <div class="button">
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p> To obtain a challenging position as a Web Developer in a dynamic organization where I can utilize my skills in programming, web development, and frameworks to design and develop user-friendly, innovative, and efficient web solutions. I aim to contribute to the growth of the company while continuously enhancing my technical expertise and staying updated with the latest trends in web technologies.</p>
+      <a href="Resume.pdf" target="_blank">
+        <button>Hire Me</button>
+      </a>
       
-        <div class="media-icons" style="font-size: 50px">
-       <a href="https://www.linkedin.com/in/aditya-mehta-b04587239/"><i class="fab fa-linkedin"> </i></a>
-        </div>
-        <div class="media-icons" style="font-size: 50px">
-          <a href="https://www.facebook.com/profile.php?id=100045867049375&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
-        </div>
-        <div class="media-icons" style="font-size: 50px">
-          <a href="https://www.github.com/mehtacode"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="media-icons" style="font-size: 50px">
-          <a href="https://www.instagram.com/adityamehta360?igsh=MXR3MHVvZzlnNHJ1eQ=="><i class="fab fa-instagram"></i></a>
-        </div>
-            
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- About Section Start -->
-    <section class="about" id="about">
-      <div class="content">
-        <div class="title"><span>About Me</span></div>
-        <div class="about-details">
-          <div class="left">
-            <img src="pic1.jpeg" alt="" />
-          </div>
-          <div class="right">
-            <div class="topic">Web Developer</div>
-            <p>
-              Experienced and detail-oriented web developer with expertise in front-end and back-end technologies. Proficient in HTML, CSS, JavaScript, React, Node.js, and MongoDB. Strong problem-solving skills and a commitment to delivering high-quality web solutions.
-            </p>
-            <div class="button">
-              <button>Download CV</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> Core Java, Python</li>
+        <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Frameworks:</strong> ReactJS, Tailwind</li>
+        <li><strong>Backend Development:</strong> NodeJS</li>
+        <li><strong>Database:</strong> MongoDB, MySQL</li>
+        <li><strong>Operating Systems:</strong> Linux</li>
+        <li><strong>Tools:</strong> Git & GitHub, ChatGPT, VS Code</li>
+      </ul>
+    </div>
+  </section>
 
-    <!-- My Skill Section Start -->
-    <!-- Section Tag and Other Div will same where we need to put same CSS -->
-    <section class="skills" id="skills">
-      <div class="content">
-        <div class="title"><span>My Skills</span></div>
-        <div class="skills-details">
-          <div class="text">
-            <div class="topic"></div>
-            <p></p>
-            <div class="experience">
-              <div class="num">1</div>
-              <div class="exp">
-                Years Of <br />
-                Experience
-              </div>
-            </div>
-          </div>
-          <div class="boxes">
-            <div class="box">
-              <div class="topic">HTML</div>
-              <div class="per">90%</div>
-            </div>
-            <div class="box">
-              <div class="topic">CSS</div>
-              <div class="per">80%</div>
-            </div>
-            <div class="box">
-              <div class="topic">JavScript</div>
-              <div class="per">60%</div>
-            </div>
-            <div class="box">
-              <div class="topic">React.js</div>
-              <div class="per">40%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <p><strong>Web Development Intern</strong> <br> Bharat Intern (Feb 2024 – Mar 2024) <br> Developed responsive portfolio websites and a healthcare web application.</p>
+    </div>
+  </section>
 
-    <!-- My Services Section Start -->
-    <section class="services" id="services">
-      <div class="content">
-        <div class="title"><span>My Services</span></div>
-        <div class="boxes">
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div class="topic">Web Devlopment</div>
-            <p></p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-paint-brush"></i>
-            </div>
-            <div class="topic">Graphic Design</div>
-            <p></p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <div class="topic">Digital Marketing</div>
-            <p></p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fab fa-android"></i>
-            </div>
-            <div class="topic">Icon Design</div>
-            <p></p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-camera-retro"></i>
-            </div>
-            <div class="topic">Photography</div>
-            <p></p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-tablet-alt"></i>
-            </div>
-            <div class="topic">Apps Devlopment</div>
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>HealthHub:</strong> A comprehensive platform for finding doctors, clinics, and hospitals.</li>
+        <li><strong>Portfolio Website:</strong> A personal portfolio showcasing skills, projects, and contact details.</li>
+      </ul>
+    </div>
+  </section>
 
-    <!-- Contact Me section Start -->
-    <section class="contact" id="contact">
-      <div class="content">
-        <div class="title"><span>Contact Me</span></div>
-        <div class="text">
-          <div class="topic">Have Any Project?</div>
-          <p></p>
-          <div class="button">
-            
-            <button>Click</button>
-            
-          </div>
-        </div>
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p><strong>Phone:</strong> +91 7970907353</p>
+      <p><strong>Email:</strong> maxedge360@gmail.com</p>
+      <p><strong>Address:</strong> Ara, Bihar, India</p>
+      <div class="social-media-icons">
+        <a href="https://facebook.com" target="_blank" class="social-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com" target="_blank" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer Section Start -->
-    <footer>
-      <div class="text">
-        <span><a href="#home"> Aditya Mehta</a> | 2024</span>
-      </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Aditya Mehta. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
