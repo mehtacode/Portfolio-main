@@ -7,7 +7,7 @@ body {
 
 /* Navbar Styles */
 .navbar {
-  background-color: #0f5be7;
+  background-color: #0faae7;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -92,7 +92,7 @@ body {
 }
 button {
   padding: 10px 20px;
-  background-color: #0f5be7;
+  background-color: #0faae7;
   color: white;
   font-size: 16px;
   border: none;
@@ -103,7 +103,7 @@ button {
 .footer {
   text-align: center;
   padding: 10px;
-  background: #0f5be7;
+  background: #0faae7;
   color: white;
   font-size: 14px;
 }
@@ -134,11 +134,11 @@ button {
 .social-icon {
   text-decoration: none;
   font-size: 30px;
-  color: #557aeb;
+  color: #020716;
   transition: color 0.3s ease;
 }
 
 .social-icon:hover {
-  color: #0f5be7; /* Change color on hover */
+  color: #0faae7; /* Change color on hover */
 }
 
