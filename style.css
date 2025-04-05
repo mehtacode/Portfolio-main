@@ -1,0 +1,31 @@
+.terminal-animation {
+    background: #000000;
+    color: #00ff00;
+    font-family: monospace;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    animation: typing 4s steps(40, end) infinite alternate;
+    white-space: pre-line;
+    overflow: hidden;
+    opacity: 0.25;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.moving-shadow {
+    animation: moveShadow 4s linear infinite;
+}
+
+@keyframes moveShadow {
+    0% { box-shadow: 0 0 15px #1DB954; }
+    25% { box-shadow: 10px 0 25px #1DB954; }
+    50% { box-shadow: 0 10px 25px #1DB954; }
+    75% { box-shadow: -10px 0 25px #1DB954; }
+    100% { box-shadow: 0 -10px 25px #1DB954; }
+}
